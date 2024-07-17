@@ -15,6 +15,7 @@ export default function Header() {
 						workforce builds long-term relationships, delivering unparalleled
 						service and ensuring customer service excellence.
 					</h3>
+                    <button className="action">Request A Quote</button>
 				</div>
 			</div>
 		</div>
