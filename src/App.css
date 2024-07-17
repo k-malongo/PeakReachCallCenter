@@ -26,6 +26,13 @@ h4 {
 	color: white;
 	position: relative;
 }
+#header .background{
+  height:100%;
+  width: 60%;
+  object-fit: cover;
+position: absolute;
+left: 40%;
+}
 
 #header .content {
 	width: 80%;
