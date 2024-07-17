@@ -3,7 +3,7 @@ export default function Header() {
 		<div id="header">
 			<img
 				className="background"
-				src="/images/header2.png"
+				src="/public/images/backgroundheader.png"
 				alt="header background"
 			/>
 
