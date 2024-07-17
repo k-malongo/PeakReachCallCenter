@@ -1,9 +1,13 @@
 export default function Header() {
 	return (
 		<div id="header">
-            <img className="background" src="/public/images/backgroundheader.png" alt="peakreach"/>
-			<div className="content">
+			<img
+				className="background"
+				src="/images/header2.png"
+				alt="header background"
+			/>
 
+			<div className="content">
 				<div className="card">
 					<h2 className="title">
 						Empowering Customer Experiences with Innovation and Sustainability
