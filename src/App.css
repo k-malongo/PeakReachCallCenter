@@ -20,53 +20,53 @@ h4 {
 	margin: 0;
 }
 
-#navbar{
-  height: 13vh;
-  width: 100%;
-  position: fixed;
-  z-index: 2;
+#navbar {
+	height: 13vh;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
 }
 
 #navbar .content {
-  width: 80%;
-  height: 100%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 #navbar .brand {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 #navbar .logo {
-  height: 50px;
-  width: 50px;
-  margin-right: 10px;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
 }
 
 #navbar .brand h1 {
-  color: white;
+	color: white;
 }
 
 #navbar .links a {
-  margin-right: 50px;
-  color: white;
-  font-size: 1.4rem;
-  text-decoration: none;
+	margin-right: 50px;
+	color: white;
+	font-size: 1.4rem;
+	text-decoration: none;
 }
 
 #navbar .links a:hover {
-  color: #008035;
+	color: #008035;
 }
 
 #header {
 	height: 100vh;
 	color: white;
 	position: relative;
-  overflow: hidden;
+	overflow: hidden;
 }
 
 #header .background {
@@ -98,20 +98,42 @@ h4 {
 
 #header .description {
 	font-size: 1.15rem;
-  margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 #header .action {
-  background: #008035;
-  color: white;
-  padding: 10px 15px;
-  border: 2px solid #008035;
-  border-radius: 10px;
-  font-size: 1.2rem;
+	background: #008035;
+	color: white;
+	padding: 10px 15px;
+	border: 2px solid #008035;
+	border-radius: 10px;
+	font-size: 1.2rem;
 }
 
 #header .action:hover {
-  cursor: pointer;
-  background: transparent;
-  transition: all 0.7s ease-in-out;
+	cursor: pointer;
+	background: transparent;
+	transition: all 0.7s ease-in-out;
+}
+
+@media only screen and (max-width: 1440px) {
+	#navbar .links a {
+		font-size: 1.2rem;
+	}
+
+	#header .card {
+		width: 800px;
+	}
+
+	#header .title {
+		font-size: 2rem;
+	}
+
+	#header .description {
+		font-size: 1rem;
+	}
+
+	#header .action {
+		font-size: 1.1rem;
+	}
 }
