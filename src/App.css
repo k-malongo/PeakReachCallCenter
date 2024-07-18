@@ -1,16 +1,16 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 h1,
@@ -18,344 +18,357 @@ h2,
 h3,
 h4,
 p {
-  margin: 0;
+	margin: 0;
 }
 
 #navbar {
-  height: 13vh;
-  width: 100%;
-  position: fixed;
-  z-index: 5;
+	height: 13vh;
+	width: 100%;
+	position: fixed;
+	z-index: 5;
 }
 
 #navbar.nav_top {
-  background: transparent;
-  color: #fff;
+	background: transparent;
+	color: #fff;
 }
 #navbar.nav_scrolled {
-  background: #fff;
-  color: #000;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  transition: all 0.7s ease-in-out;
+	background: #fff;
+	color: #000;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	transition: all 0.7s ease-in-out;
 }
 
 #navbar .content {
-  width: 80%;
-  height: 100%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 #navbar .brand {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 #navbar .logo {
-  height: 50px;
-  width: 50px;
-  margin-right: 10px;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
 }
 
 #navbar .links a {
-  margin-right: 50px;
-  font-size: 1.2rem;
-  text-decoration: none;
+	margin-right: 50px;
+	font-size: 1.2rem;
+	text-decoration: none;
 }
 
 #navbar.nav_top .links a {
-  color: #fff;
+	color: #fff;
 }
 #navbar.nav_scrolled .links a {
-  color: #000;
+	color: #000;
 }
 
 #navbar .links a:hover {
-  color: #008035;
+	color: #008035;
 }
 
 #header {
-  height: 100vh;
-  color: white;
-  position: relative;
-  overflow: hidden;
+	height: 100vh;
+	color: white;
+	position: relative;
+	overflow: hidden;
 }
 
 #header .background {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
 #header .content {
-  position: absolute;
-  background: rgba(42, 50, 117, 0.3);
-  width: 100%;
-  height: 100%;
-  padding: 0 10%;
+	position: absolute;
+	background: rgba(42, 50, 117, 0.3);
+	width: 100%;
+	height: 100%;
+	padding: 0 10%;
 }
 
 #header .card {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 800px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 800px;
 }
 
 #header .title {
-  margin-bottom: 40px;
-  font-size: 2rem;
+	margin-bottom: 40px;
+	font-size: 2rem;
 }
 
 #header .description {
-  font-size: 1rem;
-  margin-bottom: 40px;
+	font-size: 1rem;
+	margin-bottom: 40px;
 }
 
 #header .action {
-  background: #008035;
-  color: white;
-  padding: 10px 15px;
-  border: 2px solid #008035;
-  border-radius: 10px;
-  font-size: 1.1rem;
+	background: #008035;
+	color: white;
+	padding: 10px 15px;
+	border: 2px solid #008035;
+	border-radius: 10px;
+	font-size: 1.1rem;
 }
 
 #header .action:hover {
-  cursor: pointer;
-  background: transparent;
-  transition: all 0.7s ease-in-out;
+	cursor: pointer;
+	background: transparent;
+	transition: all 0.7s ease-in-out;
 }
 
 #services {
-  padding: 10vh 0;
+	padding: 10vh 0;
 }
 
 #services .content {
-  width: 80%;
-  margin: auto;
+	width: 80%;
+	margin: auto;
 }
 
 #services .title {
-  text-align: center;
-  font-size: 1.8rem;
-  margin-top: 20px;
+	text-align: center;
+	font-size: 1.8rem;
+	margin-top: 20px;
 }
 
 #services .title span {
-  color: #008035;
+	color: #008035;
 }
 
 #services .subtitle {
-  margin: 20px auto 60px;
-  max-width: 800px;
-  font-size: 1.1rem;
-  font-weight: 500;
-  text-align: center;
+	margin: 20px auto 60px;
+	max-width: 800px;
+	font-size: 1.1rem;
+	font-weight: 500;
+	text-align: center;
 }
 
 #services .container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-  margin: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: space-between;
+	margin: 20px 0;
 }
 
 #services .card {
-  width: 200px;
-  background: rgb(210, 255, 210);
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
+	width: 200px;
+	background: rgb(210, 255, 210);
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
 }
 
 #services .card:hover {
-  background: #008035;
-  color: white;
-  transition: all 0.7s ease-in-out;
+	background: #008035;
+	color: white;
+	transition: all 0.7s ease-in-out;
 }
 
 #services .card_icon {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: rgb(125, 255, 125);
-  margin: 0 auto 20px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: rgb(125, 255, 125);
+	margin: 0 auto 20px;
 }
 
 #services .card_icon img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 #services .card_title {
-  font-size: 1.2rem;
-  min-height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	font-size: 1.2rem;
+	min-height: 60px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #about {
-  height: 100vh;
-  padding: 10vh 10% 0;
-  color: black;
-  position: relative;
-  overflow: hidden;
-  display: flex;
+	height: 100vh;
+	padding: 10vh 10% 0;
+	color: black;
+	position: relative;
+	overflow: hidden;
+	display: flex;
 }
 
 #about .aboutleft {
-  width: 50%;
+	width: 50%;
 }
+
 #about .aboutleft .abouttopic {
-  font-size: 1.3rem;
-  color: #008035;
-  padding: 4px 0px;
+	font-size: 1.3rem;
+	color: #008035;
+	padding: 4px 0px;
 }
+
 #about .aboutleft .aboutheader {
-  font-size: 2.2rem;
-  font-weight: bold;
-  padding: 10px 0px;
+	font-size: 2.2rem;
+	font-weight: bold;
+	padding: 10px 0px;
 }
+
 #about .aboutleft .content {
-  font-size: 1.4rem;
-  font-weight: 200px;
-  padding: 10px 0px 20px;
+	font-size: 1.2rem;
+	font-weight: 200px;
+	padding: 10px 0px 20px;
 }
 
 #about .aboutleft .stats_container {
-  color: black;
-  margin: auto;
+	color: black;
+	margin-bottom: 30px;
 }
 
 #about .aboutleft .stat {
-  height: 80px;
-  color: black;
-  padding: 10px 0px 0px;
-  font-size: 1.4rem;
+	height: 80px;
+	color: black;
+	padding: 10px 0px 0px;
+	font-size: 1.4rem;
 }
 
 #about .aboutleft .stat .statsvalue {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 #about .aboutleft .stat .statspercent {
-  background-color: gainsboro;
-  height: 5px;
-  display: flex;
-  border-radius: 10px;
-  overflow: hidden;
+	background-color: gainsboro;
+	height: 5px;
+	margin-top: 10px;
+	display: flex;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
 #about .aboutleft .stat:nth-of-type(1) .stat_colored {
-  background-color: #ff6162;
-  width: 55%;
+	background-color: #ff6162;
+	width: 55%;
 }
 
 #about .aboutleft .stat:nth-of-type(2) .stat_colored {
-  background-color: #5e72fc;
-  width: 32%;
+	background-color: #5e72fc;
+	width: 32%;
 }
+
 #about .aboutleft .action {
-  background: #008035;
-  color: white;
-  /* padding: 5px 15px; */
-  border: 2px solid #008035;
-  border-radius: 40px;
-  font-size: 1.4rem;
-  margin: 4px;
-  display: flex;
+	background: #008035;
+	color: white;
+	border: 2px solid #008035;
+	border-radius: 40px;
+	font-size: 1.2rem;
+	margin: 4px;
+	display: flex;
 }
 
 #about .aboutleft .action p {
-  padding: 15px 15px;
+	padding: 15px 15px;
 }
 
 #about .aboutleft .action p:nth-of-type(1) {
-  padding-right: 20px;
-  border-right: 1px solid #ffffff22;
+	padding-right: 20px;
+	border-right: 1px solid #ffffff22;
 }
 
 #about .aboutleft .action:hover {
-  cursor: pointer;
-  background: transparent;
-  color: #000;
-  transition: all 0.7s ease-in-out;
+	cursor: pointer;
+	background: transparent;
+	color: #000;
+	transition: all 0.7s ease-in-out;
 }
 
 #about .aboutleft .action:hover p:nth-of-type(1) {
-  border-right: 1px solid #00000022;
+	border-right: 1px solid #00000022;
 }
 
 #about .aboutimg {
-  width: 40%;
-  margin-left: auto;
+	width: 40%;
+	margin-left: auto;
 }
 
 #about .aboutimg .imagecard {
-  width: 400px;
-  height: 500px;
-  position: relative;
+	width: 400px;
+	height: 500px;
+	position: relative;
 }
 
 #about .aboutimg .imagecard img {
-  width: 95%;
-  height: 95%;
-  object-fit: cover;
-  position: absolute;
+	width: 95%;
+	height: 95%;
+	object-fit: cover;
+	position: absolute;
 }
 
 #about .aboutimg .imagecard img:nth-of-type(1) {
-  top: 5%;
-  z-index: 2;
+	top: 5%;
+	z-index: 2;
 }
 #about .aboutimg .imagecard img:nth-of-type(2) {
-  left: 5%;
-  z-index: 1;
+	left: 5%;
+	z-index: 1;
 }
 
 @media only screen and (max-width: 1280px) {
-  #navbar .links a {
-    font-size: 1.4rem;
-  }
+	#navbar .links a {
+		font-size: 1.4rem;
+	}
 
-  #header .card {
-    width: 700px;
-  }
+	#header .card {
+		width: 700px;
+	}
 
-  #header .title {
-    font-size: 2.4rem;
-  }
+	#header .title {
+		font-size: 2.4rem;
+	}
 
-  #header .description {
-    font-size: 1.15rem;
-  }
+	#header .description {
+		font-size: 1.15rem;
+	}
 
-  #header .action {
-    font-size: 1.2rem;
-  }
+	#header .action {
+		font-size: 1.2rem;
+	}
 
-  #services .title {
-    font-size: 2rem;
-  }
+	#services .title {
+		font-size: 2rem;
+	}
 
-  #services .subtitle {
-    max-width: 700px;
-    font-size: 1.3rem;
-  }
+	#services .subtitle {
+		max-width: 700px;
+		font-size: 1.3rem;
+	}
 
-  #services .card_title {
-    font-size: 1.4rem;
-  }
+	#services .card_title {
+		font-size: 1.4rem;
+	}
 
-  #services .card p {
-    font-size: 1.1rem;
-  }
+	#services .card p {
+		font-size: 1.1rem;
+	}
+
+	#about .aboutleft .content {
+		font-size: 1.4rem;
+	}
+
+	#about .aboutleft .action {
+		font-size: 1.4rem;
+	}
 }
