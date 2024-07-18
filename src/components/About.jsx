@@ -46,7 +46,7 @@ export default function About() {
           </div>
         </div>
         <button className="action">
-          <p>Learn More &#8594;</p>
+          <p>Learn More</p><p>&#8594;</p>
         </button>
       </div>
 

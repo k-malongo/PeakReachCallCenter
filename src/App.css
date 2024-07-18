@@ -16,7 +16,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   margin: 0;
 }
 
@@ -24,18 +25,18 @@ h4 {
   height: 13vh;
   width: 100%;
   position: fixed;
-  z-index: 2;
+  z-index: 5;
 }
 
 #navbar.nav_top {
-	background: transparent;
-	color: #fff;
+  background: transparent;
+  color: #fff;
 }
 #navbar.nav_scrolled {
-	background: #fff;
-	color: #000;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-	transition: all 0.7s ease-in-out;
+  background: #fff;
+  color: #000;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.7s ease-in-out;
 }
 
 #navbar .content {
@@ -59,16 +60,16 @@ h4 {
 }
 
 #navbar .links a {
-	margin-right: 50px;
-	font-size: 1.2rem;
-	text-decoration: none;
+  margin-right: 50px;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
 #navbar.nav_top .links a {
-	color: #fff;
+  color: #fff;
 }
 #navbar.nav_scrolled .links a {
-	color: #000;
+  color: #000;
 }
 
 #navbar .links a:hover {
@@ -98,29 +99,29 @@ h4 {
 }
 
 #header .card {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	width: 800px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 800px;
 }
 
 #header .title {
-	margin-bottom: 40px;
-	font-size: 2rem;
+  margin-bottom: 40px;
+  font-size: 2rem;
 }
 
 #header .description {
-	font-size: 1rem;
-	margin-bottom: 40px;
+  font-size: 1rem;
+  margin-bottom: 40px;
 }
 
 #header .action {
-	background: #008035;
-	color: white;
-	padding: 10px 15px;
-	border: 2px solid #008035;
-	border-radius: 10px;
-	font-size: 1.1rem;
+  background: #008035;
+  color: white;
+  padding: 10px 15px;
+  border: 2px solid #008035;
+  border-radius: 10px;
+  font-size: 1.1rem;
 }
 
 #header .action:hover {
@@ -130,102 +131,102 @@ h4 {
 }
 
 #services {
-	padding: 10vh 0;
+  padding: 10vh 0;
 }
 
 #services .content {
-	width: 80%;
-	margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 #services .title {
-	text-align: center;
-	font-size: 1.8rem;
-	margin-top: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 20px;
 }
 
 #services .title span {
-	color: #008035;
+  color: #008035;
 }
 
 #services .subtitle {
-	margin: 20px auto 60px;
-	max-width: 800px;
-	font-size: 1.1rem;
-	font-weight: 500;
-	text-align: center;
+  margin: 20px auto 60px;
+  max-width: 800px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
 }
 
 #services .container {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
-	justify-content: space-between;
-	margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 20px 0;
 }
 
 #services .card {
-	width: 200px;
-	background: rgb(210, 255, 210);
-	border-radius: 10px;
-	padding: 20px;
-	text-align: center;
+  width: 200px;
+  background: rgb(210, 255, 210);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 #services .card:hover {
-	background: #008035;
-	color: white;
-	transition: all 0.7s ease-in-out;
+  background: #008035;
+  color: white;
+  transition: all 0.7s ease-in-out;
 }
 
 #services .card_icon {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	background: rgb(125, 255, 125);
-	margin: 0 auto 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgb(125, 255, 125);
+  margin: 0 auto 20px;
 }
 
 #services .card_icon img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #services .card_title {
-	font-size: 1.2rem;
-	min-height: 60px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  font-size: 1.2rem;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 #about {
   height: 100vh;
-  padding: 0 10%;
+  padding: 10vh 10% 0;
   color: black;
   position: relative;
   overflow: hidden;
   display: flex;
 }
+
 #about .aboutleft {
   width: 50%;
-  
 }
 #about .aboutleft .abouttopic {
-  font-size: 1.2rem;
-  color: #ff7172;
-} 
+  font-size: 1.3rem;
+  color: #008035;
+  padding: 4px 0px;
+}
 #about .aboutleft .aboutheader {
   font-size: 2.2rem;
   font-weight: bold;
-  padding: 0px 5px;
+  padding: 10px 0px;
 }
 #about .aboutleft .content {
   font-size: 1.4rem;
   font-weight: 200px;
-  padding: 0px 5px;
+  padding: 10px 0px 20px;
 }
 
 #about .aboutleft .stats_container {
@@ -236,7 +237,7 @@ h4 {
 #about .aboutleft .stat {
   height: 80px;
   color: black;
-  padding: 0px 5px;
+  padding: 10px 0px 0px;
   font-size: 1.4rem;
 }
 
@@ -254,7 +255,7 @@ h4 {
 }
 
 #about .aboutleft .stat:nth-of-type(1) .stat_colored {
-  background-color:#ff6162;
+  background-color: #ff6162;
   width: 55%;
 }
 
@@ -262,19 +263,40 @@ h4 {
   background-color: #5e72fc;
   width: 32%;
 }
-#about .aboutleft .action{
-  background: #5e72fc;
+#about .aboutleft .action {
+  background: #008035;
   color: white;
-  padding: 5px 15px;
-  border: 2px solid #5e72fc;
+  /* padding: 5px 15px; */
+  border: 2px solid #008035;
   border-radius: 40px;
   font-size: 1.4rem;
   margin: 4px;
+  display: flex;
+}
+
+#about .aboutleft .action p {
+  padding: 15px 15px;
+}
+
+#about .aboutleft .action p:nth-of-type(1) {
+  padding-right: 20px;
+  border-right: 1px solid #ffffff22;
+}
+
+#about .aboutleft .action:hover {
+  cursor: pointer;
+  background: transparent;
+  color: #000;
+  transition: all 0.7s ease-in-out;
+}
+
+#about .aboutleft .action:hover p:nth-of-type(1) {
+  border-right: 1px solid #00000022;
 }
 
 #about .aboutimg {
   width: 40%;
-  margin: auto;
+  margin-left: auto;
 }
 
 #about .aboutimg .imagecard {
@@ -300,25 +322,25 @@ h4 {
 }
 
 @media only screen and (max-width: 1280px) {
-	#navbar .links a {
-		font-size: 1.4rem;
-	}
+  #navbar .links a {
+    font-size: 1.4rem;
+  }
 
-	#header .card {
-		width: 700px;
-	}
+  #header .card {
+    width: 700px;
+  }
 
-	#header .title {
-		font-size: 2.4rem;
-	}
+  #header .title {
+    font-size: 2.4rem;
+  }
 
-	#header .description {
-		font-size: 1.15rem;
-	}
+  #header .description {
+    font-size: 1.15rem;
+  }
 
-	#header .action {
-		font-size: 1.2rem;
-	}
+  #header .action {
+    font-size: 1.2rem;
+  }
 
   #services .title {
     font-size: 2rem;
