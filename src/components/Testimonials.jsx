@@ -89,33 +89,32 @@ export default function Testimonials() {
 
 			<Carousel
 				responsive={responsive}
-				autoPlay={true}
 				swipeable={true}
 				draggable={true}
 				showDots={true}
+				arrows={false}
 				infinite={true}
 				partialVisible={false}
 				dotListClass="custom-dot-list-style"
 			>
-				{testimonials.map((testimonial, index) => {
-					return (
-						<div className="card" key={index}>
-							<p>{testimonial.statement}</p>
-							<div className="personal_info">
-								<div className="portrait">
-									<img
-										src={`/images/${testimonial.image}`}
-										alt={testimonial.name}
-									/>
-								</div>
-								<div>
-									<h4 className="name">{testimonial.name}</h4>
-									<h4 className="company">{testimonial.company}</h4>
-								</div>
+				{testimonials.map((testimonial, index) => (
+					<div className="card" key={index}>
+						<p className="quote_icon">&#10077;</p>
+						<p>{testimonial.statement}</p>
+						<div className="personal_info">
+							<div className="portrait">
+								<img
+									src={`/images/${testimonial.image}`}
+									alt={testimonial.name}
+								/>
+							</div>
+							<div>
+								<h4 className="name">{testimonial.name}</h4>
+								<h4 className="company">{testimonial.company}</h4>
 							</div>
 						</div>
-					);
-				})}
+					</div>
+				))}
 			</Carousel>
 		</div>
 	);
