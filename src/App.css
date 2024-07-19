@@ -360,7 +360,7 @@ p {
 
 #testimonials .personal_info {
 	display: flex;
-	gap: 10px;
+	gap: 20px;
 	align-items: center;
 	margin-top: 20px;
 }
@@ -376,6 +376,10 @@ p {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+#testimonials .personal_info .company {
+	font-weight: normal;
 }
 
 #testimonials .react-multi-carousel-list {
