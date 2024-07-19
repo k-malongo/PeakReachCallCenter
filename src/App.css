@@ -22,7 +22,6 @@ p {
 }
 
 #navbar {
-	height: 13vh;
 	width: 100%;
 	position: fixed;
 	z-index: 5;
@@ -31,11 +30,13 @@ p {
 #navbar.nav_top {
 	background: transparent;
 	color: #fff;
+	height: 13vh;
 }
 #navbar.nav_scrolled {
 	background: #fff;
 	color: #000;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	height: 10vh;
 	transition: all 0.7s ease-in-out;
 }
 
@@ -216,19 +217,19 @@ p {
 }
 
 #about .aboutleft .abouttopic {
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	color: #008035;
 	padding: 4px 0px;
 }
 
 #about .aboutleft .aboutheader {
-	font-size: 2.2rem;
+	font-size: 2rem;
 	font-weight: bold;
 	padding: 10px 0px;
 }
 
 #about .aboutleft .content {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	font-weight: 200px;
 	padding: 10px 0px 20px;
 }
@@ -242,7 +243,7 @@ p {
 	height: 80px;
 	color: black;
 	padding: 10px 0px 0px;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 
 #about .aboutleft .stat .statsvalue {
@@ -274,13 +275,13 @@ p {
 	color: white;
 	border: 2px solid #008035;
 	border-radius: 40px;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	margin: 4px;
 	display: flex;
 }
 
 #about .aboutleft .action p {
-	padding: 15px 15px;
+	padding: 15px;
 }
 
 #about .aboutleft .action p:nth-of-type(1) {
@@ -324,6 +325,52 @@ p {
 #about .aboutimg .imagecard img:nth-of-type(2) {
 	left: 5%;
 	z-index: 1;
+}
+
+#testimonials {
+	background: linear-gradient(100deg, #7470fc, #896efd, #4f74fb);
+	padding: 10vh 10%;
+}
+
+#testimonials .header {
+	color: #fff;
+	text-align: center;
+}
+
+#testimonials .title {
+	text-transform: uppercase;
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+#testimonials .subtitle {
+	text-transform: capitalize;
+	font-size: 1.8rem;
+	max-width: 400px;
+	margin: 0 auto 40px;
+}
+
+#testimonials .card {
+	margin: 0 20px;
+	padding: 20px;
+	background: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#testimonials .react-multi-carousel-list {
+	padding: 0rem 0 2rem 0;
+}
+
+#testimonials .custom-dot-list-style button {
+	border: none;
+	background: #fff;
+}
+
+#testimonials
+	.react-multi-carousel-dot.react-multi-carousel-dot--active
+	button {
+	background: #008035 !important;
 }
 
 @media only screen and (max-width: 1280px) {

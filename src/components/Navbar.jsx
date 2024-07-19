@@ -48,16 +48,16 @@ export default function Navbar() {
 		<div id="navbar" className={navTop ? "nav_top" : "nav_scrolled"}>
 			<div className="content">
 				<div className="brand">
-					<img className="logo" src="/images/logo1.png" alt="" />
+					<img className="logo" src="/images/logo1.png" alt="logo" />
 					<h1>Peak Reach</h1>
 				</div>
 
 				<div className="links">
 					<Link to="/">Home</Link>
 					<Link to="/">Services</Link>
-					<Link to="/">Products</Link>
+					<Link to="/">About Us</Link>
+					<Link to="/">Pricing</Link>
 					<Link to="/">Contact</Link>
-					<Link to="/">About</Link>
 				</div>
 			</div>
 		</div>
