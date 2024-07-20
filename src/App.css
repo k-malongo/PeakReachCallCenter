@@ -459,4 +459,8 @@ p {
 	#about .aboutleft .action {
 		font-size: 1.4rem;
 	}
+
+  #testimonials .card {
+    min-height: 290px;
+  }
 }
