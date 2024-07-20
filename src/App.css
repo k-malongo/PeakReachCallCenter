@@ -414,6 +414,64 @@ p {
 	background: #008035 !important;
 }
 
+#pricing .getting_started {
+	background: #f8f8f8;
+	padding: 10vh 10%;
+}
+
+#pricing .getting_started .title {
+	text-transform: uppercase;
+	color: #008035;
+	font-size: 1.05rem;
+	font-weight: 500;
+}
+
+#pricing .getting_started .subtitle {
+	text-transform: capitalize;
+	font-size: 2rem;
+	margin: 10px 0 40px;
+	max-width: 200px;
+}
+
+#pricing .getting_started .card_container {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+#pricing .getting_started .card {
+	width: 300px;
+}
+
+#pricing .getting_started .card .card_title {
+	max-width: 120px;
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+#pricing .getting_started .card .line_container {
+	display: flex;
+	align-items: center;
+	margin: 30px 0;
+}
+
+#pricing .getting_started .card .line_container .number {
+	background: #7470fc;
+	color: #fff;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+#pricing .getting_started .card .line_container .line {
+	height: 3px;
+	width: 100%;
+	background: #7470fc;
+}
+
+#pricing .getting_started .card .card_text {
+	max-width: 250px;
+	font-size: 1.05rem;
+}
+
 @media only screen and (max-width: 1280px) {
 	#navbar .links a {
 		font-size: 1.4rem;
