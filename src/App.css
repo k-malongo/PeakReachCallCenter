@@ -414,7 +414,7 @@ p {
 	background: #008035 !important;
 }
 
-#pricing .getting_started {
+#pricing {
 	background: #f8f8f8;
 	padding: 10vh 10%;
 }
@@ -472,6 +472,85 @@ p {
 	font-size: 1.05rem;
 }
 
+#pricing .prices .card_container {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+}
+
+#pricing .prices .card {
+	text-align: center;
+	height: 470px;
+	width: 350px;
+	padding: 50px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+#pricing .prices .card:nth-of-type(2) {
+	background: #7470fc;
+	color: #fff;
+}
+
+#pricing .prices .card .category {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-weight: 500;
+}
+
+#pricing .prices .card .figure {
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#pricing .prices .card .figure span {
+	font-size: 3rem;
+	margin-left: 10px;
+}
+
+#pricing .prices .card ul {
+	list-style: none;
+	padding: 0;
+}
+
+#pricing .prices .card .features li {
+	margin-bottom: 20px;
+}
+
+#pricing .prices .card .action {
+	margin-top: auto;
+}
+
+#pricing .prices .card .action button {
+	text-transform: capitalize;
+	background: transparent;
+	border: 2px solid #008035;
+	border-radius: 30px;
+	padding: 15px 30px;
+	font-size: 1.05rem;
+}
+
+#pricing .prices .card:nth-of-type(2) .action button {
+	background: #008035;
+	color: #fff;
+}
+
+#pricing .prices .card .action button:hover {
+	background: #008035;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.7s ease-in-out;
+}
+
+#pricing .prices .card:nth-of-type(2) .action button:hover {
+	background: transparent;
+	color: #000;
+	cursor: pointer;
+	transition: all 0.7s ease-in-out;
+}
+
 @media only screen and (max-width: 1280px) {
 	#navbar .links a {
 		font-size: 1.4rem;
@@ -518,7 +597,7 @@ p {
 		font-size: 1.4rem;
 	}
 
-  #testimonials .card {
-    min-height: 290px;
-  }
+	#testimonials .card {
+		min-height: 290px;
+	}
 }

@@ -51,6 +51,82 @@ export default function Pricing() {
 					</div>
 				</div>
 			</div>
+
+			<div className="prices">
+				<div className="card_container">
+					<div className="card">
+						<h4 className="category">basic</h4>
+						<h4 className="figure">
+							$<span>9.99</span>
+						</h4>
+						<ul className="features">
+							<li>
+								<p>Live Call Monitoring</p>
+							</li>
+							<li>
+								<p>Report Builder</p>
+							</li>
+							<li>
+								<p>Custom Caller ID</p>
+							</li>
+						</ul>
+						<div className="action">
+							<button>buy now</button>
+						</div>
+					</div>
+
+					<div className="card">
+						<h4 className="category">professional</h4>
+						<h4 className="figure">
+							$<span>49.99</span>
+						</h4>
+						<ul className="features">
+							<li>
+								<p>Live Call Monitoring</p>
+							</li>
+							<li>
+								<p>Report Builder</p>
+							</li>
+							<li>
+								<p>Custom Caller ID</p>
+							</li>
+							<li>
+								<p>Complex IVR</p>
+							</li>
+						</ul>
+						<div className="action">
+							<button>buy now</button>
+						</div>
+					</div>
+
+					<div className="card">
+						<h4 className="category">master</h4>
+						<h4 className="figure">
+							$<span>79.99</span>
+						</h4>
+						<ul className="features">
+							<li>
+								<p>Live Call Monitoring</p>
+							</li>
+							<li>
+								<p>Report Builder</p>
+							</li>
+							<li>
+								<p>Custom Caller ID</p>
+							</li>
+							<li>
+								<p>Complex IVR</p>
+							</li>
+							<li>
+								<p>Debt Collection</p>
+							</li>
+						</ul>
+						<div className="action">
+							<button>buy now</button>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }
