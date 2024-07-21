@@ -362,7 +362,6 @@ p {
 	min-height: 320px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	overflow: hidden;
 }
 
@@ -378,7 +377,7 @@ p {
 	display: flex;
 	gap: 20px;
 	align-items: center;
-	margin-top: 20px;
+	margin-top: auto;
 }
 
 #testimonials .personal_info .portrait {
@@ -406,6 +405,10 @@ p {
 	border: none;
 	background: #fff;
 	margin-right: 20px;
+}
+
+#testimonials .custom-dot-list-style button:hover {
+  background: #008035;
 }
 
 #testimonials
@@ -599,8 +602,12 @@ p {
 	}
 
 	#testimonials .card {
-		min-height: 290px;
+		min-height: 280px;
 	}
+
+  #testimonials .card .quote_icon {
+    height: 90px;
+  }
 
   #pricing .getting_started .card .card_text {
     max-width: 220px;
