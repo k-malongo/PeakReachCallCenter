@@ -601,4 +601,12 @@ p {
 	#testimonials .card {
 		min-height: 290px;
 	}
+
+  #pricing .getting_started .card .card_text {
+    max-width: 220px;
+  }
+
+  #pricing .prices .card {
+    height: 410px;
+  }
 }
