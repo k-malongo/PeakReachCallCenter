@@ -62,7 +62,7 @@ p {
 
 #navbar .links a {
 	margin-right: 50px;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	text-decoration: none;
 }
 
@@ -408,7 +408,7 @@ p {
 }
 
 #testimonials .custom-dot-list-style button:hover {
-  background: #008035;
+	background: #008035;
 }
 
 #testimonials
@@ -555,9 +555,125 @@ p {
 	transition: all 0.7s ease-in-out;
 }
 
+#faq {
+	padding: 10vh 10%;
+}
+
+#faq .header {
+	width: fit-content;
+	margin: auto;
+}
+
+#faq .title {
+	text-transform: uppercase;
+	color: #008035;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+#faq .subtitle {
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 1.7rem;
+	max-width: 180px;
+	margin: 20px 0 30px;
+}
+
+#faq .container {
+	display: flex;
+	gap: 40px;
+}
+
+#faq .faq_card {
+	width: 500px;
+}
+
+#faq .question {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border: none;
+	background: transparent;
+	padding: 30px 0;
+}
+
+#faq .question_icon {
+	background: #008035;
+	color: #fff;
+	border-radius: 50%;
+	border: 1px solid #008035;
+	width: 30px;
+	height: 30px;
+	font-size: 1.3rem;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#faq .question_text {
+	text-transform: uppercase;
+	text-align: start;
+	font-size: 1rem;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+#faq .question:hover {
+	cursor: pointer;
+}
+
+#faq .question:hover .question_text {
+	color: #7470fc;
+	cursor: pointer;
+}
+
+#faq .question_toggle {
+	margin-left: auto;
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+#faq .answer {
+	display: flex;
+	padding-bottom: 30px;
+	opacity: 1;
+	height: 100%;
+	transition: all 0.2s ease-in-out;
+}
+
+#faq .answer_closed {
+	display: flex;
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+	transition: all 0.2s ease-in-out;
+}
+
+#faq .answer_icon {
+	flex: 0 0 auto;
+	border-radius: 50%;
+	border: 1px solid #008035;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+#faq .answer_text {
+	margin-left: 20px;
+}
+
+#faq .faq_card_border {
+	margin: 0;
+}
+
 @media only screen and (max-width: 1280px) {
 	#navbar .links a {
-		font-size: 1.4rem;
+		font-size: 1.3rem;
 	}
 
 	#header .card {
@@ -605,15 +721,15 @@ p {
 		min-height: 280px;
 	}
 
-  #testimonials .card .quote_icon {
-    height: 90px;
-  }
+	#testimonials .card .quote_icon {
+		height: 90px;
+	}
 
-  #pricing .getting_started .card .card_text {
-    max-width: 220px;
-  }
+	#pricing .getting_started .card .card_text {
+		max-width: 220px;
+	}
 
-  #pricing .prices .card {
-    height: 410px;
-  }
+	#pricing .prices .card {
+		height: 410px;
+	}
 }
