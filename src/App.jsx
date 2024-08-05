@@ -8,18 +8,22 @@ import Testimonials from "./components/Testimonials.jsx";
 import Pricing from "./components/Pricing.jsx";
 import FAQ from "./components/FAQ.jsx";
 import Team from "./components/Team.jsx";
+import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
 	return (
 		<>
 			<Navbar />
 			<Header />
-			<Services />
 			<About />
+			<Services />
 			<Testimonials />
 			<Pricing />
 			<FAQ />
 			<Team/>
+			<Contact />
+			<Footer />
 		</>
 	);
 }
