@@ -37,7 +37,7 @@ p {
   background: #fff;
   color: #000;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  height: 10vh;
+  height: 11vh;
   transition: all 0.7s ease-in-out;
 }
 
@@ -61,9 +61,15 @@ p {
   margin-right: 10px;
 }
 
+#navbar .links {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
 #navbar .links a {
-  margin-right: 50px;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
   font-size: 1.1rem;
   text-decoration: none;
 }
@@ -78,7 +84,7 @@ p {
 #navbar .links a:hover,
 #navbar .links .active {
   border-bottom: 3px solid #008035;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 #header {
@@ -626,7 +632,7 @@ p {
 
 #team .card {
   height: 450px;
-  width: 220px;
+  width: 230px;
 }
 
 #team .card:hover {
