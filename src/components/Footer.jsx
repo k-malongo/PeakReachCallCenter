@@ -88,11 +88,6 @@ export default function Footer() {
                   <Link>Cookies Policy</Link>
                 </p>
               </li>
-              <li>
-                <p>
-                  <Link>Accessibility</Link>
-                </p>
-              </li>
             </ul>
           </div>
 
