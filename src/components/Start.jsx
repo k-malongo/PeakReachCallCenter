@@ -1,6 +1,6 @@
-export default function Pricing() {
+export default function Start() {
   return (
-    <div id="pricing">
+    <div id="start">
       <h2 className="title">four easy steps</h2>
       <h3 className="subtitle">how to get started</h3>
 

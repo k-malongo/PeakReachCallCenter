@@ -44,22 +44,22 @@ export default function Footer() {
             <ul>
               <li>
                 <p>
-                  <Link>Features</Link>
+                  <Link to="/#services">Services</Link>
                 </p>
               </li>
               <li>
                 <p>
-                  <Link>Pricing</Link>
+                  <Link to="/#faq">FAQs</Link>
                 </p>
               </li>
               <li>
                 <p>
-                  <Link>Sign Up</Link>
+                  <Link to="/#team">Our Team</Link>
                 </p>
               </li>
               <li>
                 <p>
-                  <Link>FAQs</Link>
+                  <Link to="/#contact">Contact</Link>
                 </p>
               </li>
             </ul>
