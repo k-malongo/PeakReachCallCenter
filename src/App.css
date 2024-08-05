@@ -172,14 +172,14 @@ p {
 
 #services .card {
   width: 200px;
-  background: rgb(210, 255, 210);
+  background: #a4a2ff;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
 }
 
 #services .card:hover {
-  background: #008035;
+  background: #7470fc;
   color: white;
   transition: all 0.7s ease-in-out;
 }
@@ -188,7 +188,7 @@ p {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: rgb(125, 255, 125);
+  background: #7dff7d;
   margin: 0 auto 20px;
 }
 
@@ -265,12 +265,12 @@ p {
 }
 
 #about .aboutleft .stat:nth-of-type(1) .stat_colored {
-  background-color: #ff6162;
+  background-color: #008035;
   width: 55%;
 }
 
 #about .aboutleft .stat:nth-of-type(2) .stat_colored {
-  background-color: #5e72fc;
+  background-color: #7470fc;
   width: 32%;
 }
 
