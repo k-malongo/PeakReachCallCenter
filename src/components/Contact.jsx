@@ -10,7 +10,7 @@ export default function Contact() {
         center={[1.3107, 36.8219]}
         zoom={10}
         scrollWheelZoom={false}
-        style={{ height: "550px", zIndex: 1 }}
+        style={{ height: "600px", zIndex: 1 }}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

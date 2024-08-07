@@ -22,6 +22,8 @@ p {
   margin: 0;
 }
 
+/* NAVBAR */
+
 #navbar {
   width: 100%;
   position: fixed;
@@ -37,7 +39,7 @@ p {
   background: #fff;
   color: #000;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  height: 11vh;
+  height: 10vh;
   transition: all 0.7s ease-in-out;
 }
 
@@ -86,6 +88,8 @@ p {
   border-bottom: 3px solid #008035;
   transition: all 0.7s ease-in-out;
 }
+
+/* HEADER */
 
 #header {
   height: 100vh;
@@ -141,6 +145,8 @@ p {
   transition: all 0.7s ease-in-out;
 }
 
+/* SERVICES */
+
 #services {
   padding: 10vh 0;
 }
@@ -171,13 +177,13 @@ p {
 #services .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
+  gap: 30px;
+  justify-content: center;
   margin: 20px 0;
 }
 
 #services .card {
-  width: 200px;
+  width: 220px;
   background: #b0aeff;
   border-radius: 10px;
   padding: 20px;
@@ -213,55 +219,55 @@ p {
   justify-content: center;
 }
 
+/* ABOUT */
+
 #about {
-  height: 100vh;
-  padding: 10vh 10% 0;
-  color: black;
-  position: relative;
-  overflow: hidden;
+  padding: 10vh 10%;
   display: flex;
+  gap: 40px;
+  justify-content: space-between;
 }
 
-#about .aboutleft {
-  width: 50%;
+#about .main {
+  width: 600px;
 }
 
-#about .aboutleft .abouttopic {
+#about .header .title {
+  text-transform: uppercase;
   font-size: 1.1rem;
   color: #008035;
-  padding: 4px 0px;
+  margin-bottom: 10px;
 }
 
-#about .aboutleft .aboutheader {
+#about .header .subtitle {
   font-size: 2rem;
-  font-weight: bold;
-  padding: 10px 0px;
+  margin-bottom: 20px;
+  max-width: 250px;
 }
 
-#about .aboutleft .content {
+#about .description {
   font-size: 1.1rem;
-  font-weight: 200px;
-  padding: 10px 0px 20px;
+  margin-bottom: 20px;
 }
 
-#about .aboutleft .stats_container {
+#about .stats_container {
   color: black;
   margin-bottom: 30px;
 }
 
-#about .aboutleft .stat {
+#about .stat {
   height: 80px;
   color: black;
   padding: 10px 0px 0px;
   font-size: 1.2rem;
 }
 
-#about .aboutleft .stat .statsvalue {
+#about .stat .statsvalue {
   display: flex;
   justify-content: space-between;
 }
 
-#about .aboutleft .stat .statspercent {
+#about .stat .statspercent {
   background-color: gainsboro;
   height: 5px;
   margin-top: 10px;
@@ -270,17 +276,17 @@ p {
   overflow: hidden;
 }
 
-#about .aboutleft .stat:nth-of-type(1) .stat_colored {
+#about .stat:nth-of-type(1) .stat_colored {
   background-color: #008035;
   width: 55%;
 }
 
-#about .aboutleft .stat:nth-of-type(2) .stat_colored {
+#about .stat:nth-of-type(2) .stat_colored {
   background-color: #7470fc;
   width: 32%;
 }
 
-#about .aboutleft .action {
+#about .action {
   background: #008035;
   color: white;
   border: 2px solid #008035;
@@ -290,23 +296,23 @@ p {
   display: flex;
 }
 
-#about .aboutleft .action p {
+#about .action p {
   padding: 15px;
 }
 
-#about .aboutleft .action p:nth-of-type(1) {
+#about .action p:nth-of-type(1) {
   padding-right: 20px;
   border-right: 1px solid #ffffff22;
 }
 
-#about .aboutleft .action:hover {
+#about .action:hover {
   cursor: pointer;
   background: transparent;
   color: #000;
-  transition: all 0.7s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-#about .aboutleft .action:hover p:nth-of-type(1) {
+#about .action:hover p:nth-of-type(1) {
   border-right: 1px solid #00000022;
 }
 
@@ -315,27 +321,29 @@ p {
   margin-left: auto;
 }
 
-#about .aboutimg .imagecard {
+#about .background .imagecard {
   width: 400px;
   height: 500px;
   position: relative;
 }
 
-#about .aboutimg .imagecard img {
+#about .background .imagecard img {
   width: 95%;
   height: 95%;
   object-fit: cover;
   position: absolute;
 }
 
-#about .aboutimg .imagecard img:nth-of-type(1) {
+#about .background .imagecard img:nth-of-type(1) {
   top: 5%;
   z-index: 2;
 }
-#about .aboutimg .imagecard img:nth-of-type(2) {
+#about .background .imagecard img:nth-of-type(2) {
   left: 5%;
   z-index: 1;
 }
+
+/* START */
 
 #start {
   background: #f8f8f8;
@@ -345,13 +353,12 @@ p {
 #start .title {
   text-transform: uppercase;
   color: #008035;
-  font-size: 1.4rem;
-  font-weight: 500;
+  font-size: 1.1rem;
 }
 
 #start .subtitle {
   text-transform: capitalize;
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin: 10px 0 40px;
   max-width: 200px;
 }
@@ -383,6 +390,11 @@ p {
   color: #fff;
   padding: 10px;
   border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #start .card .line_container .line {
@@ -396,6 +408,8 @@ p {
   font-size: 1.05rem;
 }
 
+/* TESTIMONIALS */
+
 #testimonials {
   background: linear-gradient(to right, #896efd 0%, #4f74fb 100%);
   padding: 10vh 10%;
@@ -408,13 +422,13 @@ p {
 
 #testimonials .title {
   text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   margin-bottom: 10px;
 }
 
 #testimonials .subtitle {
   text-transform: capitalize;
-  font-size: 2.2rem;
+  font-size: 2rem;
   max-width: 400px;
   margin: 0 auto 40px;
 }
@@ -486,6 +500,8 @@ p {
   background: #008035 !important;
 }
 
+/* FAQ */
+
 #faq {
   padding: 10vh 10%;
 }
@@ -499,13 +515,13 @@ p {
 #faq .title {
   text-transform: uppercase;
   color: #008035;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   margin-bottom: 20px;
 }
 
 #faq .subtitle {
   text-transform: capitalize;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 #faq .container {
@@ -601,6 +617,8 @@ p {
   margin: 0;
 }
 
+/* TEAM */
+
 #team {
   padding: 10vh 10% 15vh;
 }
@@ -614,12 +632,12 @@ p {
 #team .header .title {
   color: #008035;
   text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   margin-bottom: 20px;
 }
 
 #team .header .subtitle {
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-transform: capitalize;
 }
 
@@ -627,7 +645,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px;
+  gap: 40px;
 }
 
 #team .card {
@@ -660,7 +678,7 @@ p {
 
 #team .card .name {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 7px;
 }
 
@@ -672,7 +690,7 @@ p {
 
 #team .card .position {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: normal;
   margin-bottom: 15px;
 }
@@ -684,7 +702,7 @@ p {
 }
 
 #team .card .icon {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 #team .card .icon:hover {
@@ -693,13 +711,15 @@ p {
   transition: all 0.3s ease-in-out;
 }
 
+/* CONTACT */
+
 #contact {
   position: relative;
 }
 
 #contact .contact_container {
-  height: 500px;
-  width: 400px;
+  height: 550px;
+  width: 450px;
   position: absolute;
   top: 50%;
   right: 10%;
@@ -739,7 +759,7 @@ p {
 }
 
 #contact .contact_container .form .title {
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
@@ -755,7 +775,6 @@ p {
   margin-top: 20px;
   border-radius: 30px;
   border: 2px solid #008035;
-  font-size: 1.2rem;
   padding: 8px 30px;
 }
 
@@ -764,6 +783,8 @@ p {
   color: #008035;
   transition: all 0.7s ease-in-out;
 }
+
+/* FOOTER */
 
 #footer {
   background: #233d4d;
@@ -835,64 +856,4 @@ p {
 }
 
 @media only screen and (max-width: 1280px) {
-  #navbar .links a {
-    font-size: 1.3rem;
-  }
-
-  #header .card {
-    width: 700px;
-  }
-
-  #header .title {
-    font-size: 2.4rem;
-  }
-
-  #header .description {
-    font-size: 1.15rem;
-  }
-
-  #header .action {
-    font-size: 1.2rem;
-  }
-
-  #services .title {
-    font-size: 2rem;
-  }
-
-  #services .subtitle {
-    max-width: 700px;
-    font-size: 1.3rem;
-  }
-
-  #services .card_title {
-    font-size: 1.4rem;
-  }
-
-  #services .card p {
-    font-size: 1.1rem;
-  }
-
-  #about .aboutleft .content {
-    font-size: 1.4rem;
-  }
-
-  #about .aboutleft .action {
-    font-size: 1.4rem;
-  }
-
-  #testimonials .card {
-    min-height: 280px;
-  }
-
-  #testimonials .card .quote_icon {
-    height: 90px;
-  }
-
-  #start .card .card_text {
-    max-width: 220px;
-  }
-
-  #start .prices .card {
-    height: 410px;
-  }
 }
