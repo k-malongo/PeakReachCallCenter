@@ -99,7 +99,9 @@ export default function Footer() {
                   <MailIcon />
                 </div>
                 <p>
-                  <span hidden>email: </span>peakreach@gmail.com
+                  <span hidden>email: </span>
+                  <a href="mailto:info@peakreachcallcenterltd.com">info@peakreachcallcenterltd.com
+                  </a>
                 </p>
               </li>
               <li>
@@ -107,7 +109,7 @@ export default function Footer() {
                   <PhoneIcon />
                 </div>
                 <p>
-                  <span hidden>phone: </span>254712345678
+                  <span hidden>phone: </span>254712345678/+254780520824
                 </p>
               </li>
               <li>

@@ -104,6 +104,11 @@ export default function Navbar() {
           >
             Contact
           </Link>
+          {/* <Link
+              to="/#contact"
+              className={activeLink === "contact" ? "active link" : "link"}>
+            Careers
+          </Link> */}
         </div>
       </div>
     </div>
