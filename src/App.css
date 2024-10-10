@@ -445,7 +445,7 @@ p {
   padding: 20px;
   background: #fff;
   border-radius: 10px;
-  min-height: 320px;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -953,10 +953,6 @@ p {
   #testimonials .subtitle {
     font-size: 1.8rem;
     max-width: 350px;
-  }
-
-  #testimonials .card {
-    min-height: 300px;
   }
 
   #faq {
