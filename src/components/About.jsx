@@ -10,7 +10,11 @@ export default function About() {
         <p className="description">
           Our agents are fully bilingual, bi-cultural, well educated and have
           expertise in a wide array of business functions such as Debt
+<<<<<<< HEAD
           Collection and Customer Service.
+=======
+          Collection, Customer Service.
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
         </p>
 
         <div className="stats_container">

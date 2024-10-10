@@ -3,17 +3,29 @@ import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
 	desktop: {
+<<<<<<< HEAD
 		breakpoint: { max: 3000, min: 1080 },
+=======
+		breakpoint: { max: 3000, min: 1024 },
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
 		items: 3,
 		slidesToSlide: 3, // optional, default to 1.
 	},
 	tablet: {
+<<<<<<< HEAD
 		breakpoint: { max: 1079, min: 768 },
+=======
+		breakpoint: { max: 1024, min: 768 },
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
 		items: 2,
 		slidesToSlide: 2, // optional, default to 1.
 	},
 	mobile: {
+<<<<<<< HEAD
 		breakpoint: { max: 767, min: 350 },
+=======
+		breakpoint: { max: 767, min: 464 },
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
 		items: 1,
 		slidesToSlide: 1, // optional, default to 1.
 	},
@@ -99,7 +111,11 @@ export default function Testimonials() {
 				{testimonials.map((testimonial, index) => (
 					<div className="card" key={index}>
 						<p className="quote_icon">&#10077;</p>
+<<<<<<< HEAD
 						<p className="quote_text">{testimonial.statement}</p>
+=======
+						<p>{testimonial.statement}</p>
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
 						<div className="personal_info">
 							<div className="portrait">
 								<img

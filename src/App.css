@@ -63,23 +63,32 @@ p {
   margin-right: 10px;
 }
 
+<<<<<<< HEAD
 #navbar .menu_icon {
   display: none;
 }
 
 #navbar .desktop_links {
+=======
+#navbar .links {
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
   display: flex;
   gap: 50px;
   align-items: center;
 }
 
+<<<<<<< HEAD
 #navbar .desktop_links a {
+=======
+#navbar .links a {
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
   padding-bottom: 5px;
   border-bottom: 3px solid transparent;
   font-size: 1.1rem;
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 #navbar.nav_top .desktop_links a {
   color: #fff;
 }
@@ -89,6 +98,17 @@ p {
 
 #navbar .desktop_links a:hover,
 #navbar .desktop_links .active {
+=======
+#navbar.nav_top .links a {
+  color: #fff;
+}
+#navbar.nav_scrolled .links a {
+  color: #000;
+}
+
+#navbar .links a:hover,
+#navbar .links .active {
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
   border-bottom: 3px solid #008035;
   transition: all 0.7s ease-in-out;
 }
@@ -233,7 +253,11 @@ p {
 }
 
 #about .main {
+<<<<<<< HEAD
   max-width: 600px;
+=======
+  width: 600px;
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
 }
 
 #about .header .title {
@@ -369,10 +393,18 @@ p {
 
 #start .card_container {
   display: flex;
+<<<<<<< HEAD
 }
 
 #start .card {
   max-width: 300px;
+=======
+  margin-bottom: 40px;
+}
+
+#start .card {
+  width: 300px;
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
 }
 
 #start .card .card_title {
@@ -804,7 +836,11 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+<<<<<<< HEAD
   gap: 40px;
+=======
+  row-gap: 30px;
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
   padding-top: 50px;
 }
 
@@ -859,6 +895,7 @@ p {
 }
 
 @media only screen and (max-width: 1280px) {
+<<<<<<< HEAD
   #navbar .content {
     width: 90%;
   }
@@ -1402,3 +1439,6 @@ p {
     width: 200px;
   }
 }
+=======
+}
+>>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
