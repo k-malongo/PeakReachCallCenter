@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-<<<<<<< HEAD
 // MUI
 import {
   IconButton,
@@ -97,9 +96,6 @@ const drawerItems = (open, activeLink) => {
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [isClosing, setIsClosing] = useState();
-=======
-export default function Navbar() {
->>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
   const [activeLink, setActiveLink] = useState("header");
   const [navTop, setNavTop] = useState(true);
 
@@ -118,11 +114,7 @@ export default function Navbar() {
         "header",
         "services",
         "about",
-<<<<<<< HEAD
         "start",
-=======
-		"start",
->>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
         "testimonials",
         "faq",
         "team",
@@ -155,7 +147,6 @@ export default function Navbar() {
     };
   }, []);
 
-<<<<<<< HEAD
   const handleDrawerClose = () => {
     setIsClosing(true);
     setOpen(false);
@@ -171,8 +162,6 @@ export default function Navbar() {
     setIsClosing(false);
   };
 
-=======
->>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
   return (
     <div id="navbar" className={navTop ? "nav_top" : "nav_scrolled"}>
       <div className="content">
@@ -181,11 +170,7 @@ export default function Navbar() {
           <h1>Peak Reach</h1>
         </div>
 
-<<<<<<< HEAD
         <div className="desktop_links">
-=======
-        <div className="links">
->>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
           <Link
             to="/"
             className={activeLink === "header" ? "active link" : "link"}
@@ -229,7 +214,6 @@ export default function Navbar() {
             Contact
           </Link>
         </div>
-<<<<<<< HEAD
 
         <div className="menu_icon">
           <IconButton color="inherit" aria-label="open mobile nav" onClick={handleDrawerToggle}>
@@ -256,8 +240,6 @@ export default function Navbar() {
         >
           {drawerItems(open, activeLink)}
         </Drawer>
-=======
->>>>>>> 8e7588620e1001698b383941e0d8cef07f57e055
       </div>
     </div>
   );
