@@ -1328,6 +1328,10 @@ p {
 }
 
 @media only screen and (max-width: 430px) {
+  #header .content {
+    padding: 0 8%;
+  }
+  
   #header .card {
     width: 320px;
   }
@@ -1351,6 +1355,10 @@ p {
 
   #about .header .subtitle {
     font-size: 1.5rem;
+  }
+
+  #start {
+    padding: 10vh 15%;
   }
 
   #start .card {
