@@ -2,47 +2,49 @@ import { useState } from "react";
 
 const q_a1 = [
 	{
-		question: "what is a call center agency?",
+		question: "How to contact us?",
 		answer:
-			"We often have job opportunities available. We value hard work and strive to build a great team. If interested in a position with UZ Mindset Services",
+			"info@peakreachcallcenterltd.com | +254797561335/+254780520824",
+
 	},
 	{
-		question: "is worldwide a call center agency?",
+		question: "What are our hours of operation?",
 		answer:
-			"No – we do not own a call center. WCC is a call center consulting company that is dedicated to enhancing the outsourcing process. Our consultants will analyze your unique situation and provide referrals to 4-5 of the BEST call",
+			"Peakreach Call Center operational 24hrs a day",
 	},
 	{
-		question: "what type of call center agencies are?",
+		question: "What products/services do we offer?",
 		answer:
-			"Donec pellentesque neque id blandit sodales. Duis vel euismod nibh. Sed efficitur magna eget auctor auctor. Aliquam ultrices nisi ac nisl tempus, in",
+			"Assisting customers with inquiries, troubleshooting issues, and providing information about products and services.",
 	},
 	{
-		question: "what is call center outsourcing?",
+		question: "what is our location?",
 		answer:
-			"Feugiat nunc hendrerit. Vivamus gravida id tortor vitae rhoncus. Sed odio lorem, gravida eget condimentum sit amet, ultrices at ante. Sed urna purus, cursus sed",
+			"Our headquaters are located in Nairobi Kenya but we operate globally ",
 	},
 ];
 
 const q_a2 = [
 	{
-		question: "what are the costs of outsourcing?",
+		question: "How to request for a demo",
 		answer:
-			"Feugiat nunc hendrerit. Vivamus gravida id tortor vitae rhoncus. Sed odio lorem, gravida eget condimentum sit amet, ultrices at ante. Sed urna purus, cursus sed",
+			"Prepare Your Information: Before reaching out, have your contact details ready, including your name, email, and phone number. Identify the specific product or service you’re interested in.",
 	},
 	{
-		question: "how do i hire a call center?",
+		question: "How long is the demo?",
 		answer:
-			"Nulla mi ipsum, congue vitae erat ut, lacinia facilisis tellus. Duis ut tellus sit amet urna interdum congue. Proin eu laoreet nisl. Cras eget sagittis felis",
+			"The length of a demo in our call center typically ranges from 30 minutes to an hour. This duration allows for a comprehensive overview of the services offered, including system features, functionality, and user interface. During our demo, you can ask questions and explore specific use cases relevant to their needs. We organize a well-structured demo ensures that you understand how the call center solutions can benefit your operations and improve customer experience. Following the demo, there will be time allocated for further discussions or clarifications based on your interests and requirements.",
 	},
 	{
-		question: "what are the top call center locations?",
+		question: "why Peak Reach?",
 		answer:
-			"Nam a aliquet augue. Nunc dignissim massa nec vulputate eleifend. Cras at nisl imperdiet, venenatis sem gravida, porta odio. Nulla congue erat id risus maximus",
+		"Exceptional Customer Service: Our trained agents prioritize customer satisfaction, ensuring a friendly and professional experience for every caller.",
+		
 	},
 	{
-		question: "how can we generate more leads?",
+		question: "Who are our clients?",
 		answer:
-			"Integer libero libero, pharetra sed ultrices eu, bibendum non nisl. Nulla turpis lorem, placerat non eleifend nec, lacinia ut diam. Phasellus eleifend risus",
+			"Our clients are companies that receive high number of calls, chats and interactions",
 	},
 ];
 

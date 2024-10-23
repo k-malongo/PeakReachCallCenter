@@ -2,7 +2,7 @@ export default function Start() {
   return (
     <div id="start">
       <h2 className="title">four easy steps</h2>
-      <h3 className="subtitle">how to get started</h3>
+      <h3 className="subtitle">how to get started for call/chat campaign</h3>
 
       <div className="card_container">
         <div className="card">
@@ -12,7 +12,7 @@ export default function Start() {
             <div className="line"></div>
           </div>
           <p className="card_text">
-            Name your Campaign and choose your country
+            Get a live demo and request proof of concept for your campaign
           </p>
         </div>
 
@@ -45,7 +45,7 @@ export default function Start() {
             <div className="line"></div>
           </div>
           <p className="card_text">
-            Name your Campaign and choose your country
+            Expand business with the best customer support
           </p>
         </div>
       </div>

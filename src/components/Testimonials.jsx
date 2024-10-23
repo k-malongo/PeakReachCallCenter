@@ -22,14 +22,14 @@ const responsive = {
 const testimonials = [
 	{
 		name: "John M.",
-		company: "Acme Inc.",
+		company: "CEO of a leading airline",
 		image: "boy1.jpg",
 		statement:
 			"PeakReach's customer service is top-notch. Their team is always professional and responsive, making our interactions smooth and efficient.",
 	},
 	{
 		name: "Susan K.",
-		company: "Bright Solutions",
+		company: "Decision ",
 		image: "girl1.jpg",
 		statement:
 			"We've seen a significant improvement in our debt recovery rates since partnering with PeakReach. Their ethical approach and effectiveness are commendable.",
@@ -109,7 +109,7 @@ export default function Testimonials() {
 							</div>
 							<div>
 								<h4 className="name">{testimonial.name}</h4>
-								<h4 className="company">{testimonial.company}</h4>
+								{/* <h4 className="company">{testimonial.company}</h4> */}
 							</div>
 						</div>
 					</div>

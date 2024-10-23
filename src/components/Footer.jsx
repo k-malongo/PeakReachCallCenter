@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
+
+/* eslint-disable react/prop-types */
+
 
 // MUI
 import PlaceIcon from "@mui/icons-material/Place";
@@ -9,7 +13,7 @@ import XIcon from "@mui/icons-material/X";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-export default function Footer() {
+export default function Footer({ openPopup }) {
   return (
     <div id="footer">
       <div className="content">
@@ -73,11 +77,7 @@ export default function Footer() {
                   <Link>Terms and Conditions</Link>
                 </p>
               </li>
-              <li>
-                <p>
-                  <Link>Privacy Policy</Link>
-                </p>
-              </li>
+             
               <li>
                 <p>
                   <Link>Acceptable Use Notice</Link>
@@ -89,6 +89,12 @@ export default function Footer() {
                 </p>
               </li>
             </ul>
+            <Button
+              className="footer_popup"
+              onClick={openPopup}
+            >
+              Privacy Policy
+            </Button>
           </div>
 
           <div className="card contact">

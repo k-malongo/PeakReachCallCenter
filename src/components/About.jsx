@@ -15,17 +15,22 @@ export default function About() {
 
         <div className="stats_container">
           <div className="stat">
-            <div className="statsvalue">
+            {/* <div className="statsvalue">
               <p>Customer Service</p>
               <p>55%</p>
             </div>
             <div className="statspercent">
               <div className="stat_colored"></div>
               <div className="stat_colorless"></div>
+            </div> */}
+
+            <div>
+              <b>Leverage technology to empower people</b>
+              <p>Utilize technology for access to information, skill training, community building, e-commerce, remote work, and feedback mechanisms to empower individuals.</p>
             </div>
           </div>
 
-          <div className="stat">
+          {/* <div className="stat">
             <div className="statsvalue">
               <p>Sales/Lead Generation</p>
               <p>32%</p>
@@ -34,13 +39,13 @@ export default function About() {
               <div className="stat_colored"></div>
               <div className="stat_colorless"></div>
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <button className="action">
+        {/* <button className="action">
           <p>Learn More</p>
           <p>&#8594;</p>
-        </button>
+        </button> */}
       </div>
 
       <div className="background">
