@@ -5,28 +5,28 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const teamDetails = [
   {
-    image: "/images/boy1.jpg",
+    image: "/images/4.png",
     alt: "boy1",
-    name: "Roger M. Howell",
-    position: "Manager",
+    name: "Juliet W",
+    position: "C.E.O",
   },
   {
-    image: "/images/girl1.jpg",
-    alt: "girl1",
-    name: "Barbara J. Zambrano",
-    position: "Manager",
+    image: "/images/3.png",
+    alt: "Kelvin",
+    name: "Kelvin M",
+    position: "IT specialist",
   },
   {
-    image: "/images/boy4.jpg",
+    image: "/images/image.png",
     alt: "boy4",
-    name: "Jacob B. McGinley",
-    position: "Manager",
+    name: "Trevor K",
+    position: "Projects Manager",
   },
   {
-    image: "/images/girl2.jpg",
+    image: "/images/1.png",
     alt: "girl2",
-    name: "Joyce V. Garcia",
-    position: "Manager",
+    name: "Emma W",
+    position: "HR Manager",
   },
 ];
 
