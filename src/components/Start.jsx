@@ -2,7 +2,10 @@ export default function Start() {
   return (
     <div id="start">
       <h2 className="title">four easy steps</h2>
-      <h3 className="subtitle">how to get started for call/chat campaign</h3>
+      <div className="subtitle-card">
+        <h3 className="subtitle">how to get started for call/chat campaign</h3>
+
+      </div>
 
       <div className="card_container">
         <div className="card">

@@ -116,6 +116,28 @@ p {
   height: 100%;
   padding: 0 10%;
 }
+#header .contacts{
+  /* display: flex; */
+  padding: 0;
+  
+}
+#header .icon{
+  padding: 0 2%;
+  display: flex;
+  gap: 6px;
+  padding:  10px 0;
+}
+#header .icon .icon-color{
+  color: #c9e165;
+
+}
+#header a {
+  text-decoration: none;
+  color: #fff;
+}
+#header a:hover {
+  color: #008035;
+}
 
 #header .card {
   position: absolute;
@@ -364,7 +386,7 @@ p {
   text-transform: capitalize;
   font-size: 2rem;
   margin: 10px 0 40px;
-  max-width: 200px;
+  max-width: 400px;
 }
 
 #start .card_container {
@@ -410,6 +432,7 @@ p {
   max-width: 250px;
   font-size: 1.05rem;
 }
+
 
 /* TESTIMONIALS */
 
@@ -1003,9 +1026,11 @@ p {
   #start .title {
     font-size: 1.05rem;
   }
+ 
 
   #start .subtitle {
     font-size: 1.8rem;
+
   }
 
   #start .card .card_text {

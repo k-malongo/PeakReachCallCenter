@@ -115,7 +115,7 @@ export default function Footer({ openPopup }) {
                   <PhoneIcon />
                 </div>
                 <p>
-                  <span hidden>phone: </span>254712345678/+254780520824
+                  <span hidden>phone: </span>+254797561335/+254780520824
                 </p>
               </li>
               <li>
