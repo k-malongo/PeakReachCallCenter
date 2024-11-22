@@ -1,4 +1,5 @@
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
@@ -14,6 +15,7 @@ import Team from "./components/Team.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import Popup from "./components/Popup.jsx";
+import Careers from "./components/Careers.jsx";
 
 function App() {
   const { pathname, hash, key } = useLocation();
@@ -46,8 +48,32 @@ function App() {
   };
   return (
     <>
-      <Navbar />
-      <Header />
+
+      <Routes>
+      <Route
+          path="/"
+          element={
+            <>
+              {/* Components specific to the home page */}
+              <Navbar />
+
+              <Header />
+              <Services />
+              <About />
+              <Start />
+              <Testimonials />
+              <FAQ />
+              <Team />
+              <Contact />
+              <Footer openPopup={openPopup} />
+              {isPopupOpen && <Popup closePopup={closePopup} />}
+            </>
+          }
+        />
+        <Route path="/careers" element={<Careers />} />
+      </Routes>
+
+      {/* <Header />
       <Services />
       <About />
       <Start />
@@ -56,7 +82,7 @@ function App() {
       <Team />
       <Contact />
       <Footer openPopup={openPopup} />
-      {isPopupOpen && <Popup closePopup={closePopup} />}
+      {isPopupOpen && <Popup closePopup={closePopup} />} */}
     </>
   );
 }

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
 
+
 /* eslint-disable react/prop-types */
 
 
@@ -64,6 +65,11 @@ export default function Footer({ openPopup }) {
               <li>
                 <p>
                   <Link to="/#contact">Contact</Link>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <Link to="/careers">Careers</Link>
                 </p>
               </li>
             </ul>
