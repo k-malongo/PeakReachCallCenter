@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
@@ -17,7 +17,6 @@ import Footer from "./components/Footer.jsx";
 import Popup from "./components/Popup.jsx";
 import Careers from "./components/Careers.jsx";
 import ApplyPage from "./components/ApplyPage.jsx";
-
 
 function App() {
   const { pathname, hash, key } = useLocation();
@@ -50,9 +49,8 @@ function App() {
   };
   return (
     <>
-
       <Routes>
-      <Route
+        <Route
           path="/"
           element={
             <>
@@ -74,10 +72,7 @@ function App() {
         />
         <Route path="/careers" element={<Careers />} />
         <Route path="/careers/apply/:jobId" element={<ApplyPage />} />
-
       </Routes>
-
-  
     </>
   );
 }
