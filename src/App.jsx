@@ -16,6 +16,8 @@ import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import Popup from "./components/Popup.jsx";
 import Careers from "./components/Careers.jsx";
+import ApplyPage from "./components/ApplyPage.jsx";
+
 
 function App() {
   const { pathname, hash, key } = useLocation();
@@ -71,18 +73,11 @@ function App() {
           }
         />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/careers/apply/:jobId" element={<ApplyPage />} />
+
       </Routes>
 
-      {/* <Header />
-      <Services />
-      <About />
-      <Start />
-      <Testimonials />
-      <FAQ />
-      <Team />
-      <Contact />
-      <Footer openPopup={openPopup} />
-      {isPopupOpen && <Popup closePopup={closePopup} />} */}
+  
     </>
   );
 }

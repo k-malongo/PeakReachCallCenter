@@ -950,8 +950,13 @@ p {
   padding: 5vh 10% 10vh;
 }
 
-#careers .home {
-  color: red;
+#careers .head_wrapper .home a{
+  text-decoration: none;
+  color: white ;
+}
+#careers .head_wrapper .home a:hover{
+  text-decoration: none;
+  color: #018035; ;
 }
 
 #careers .heading {
@@ -964,7 +969,7 @@ p {
 
 /* ImpactSourcing.css */
 #careers .impact-sourcing {
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
   color: #1a1a1a;
 
   padding: 0 15%;
@@ -981,7 +986,7 @@ p {
 }
 
 #careers .header .impact {
-  color: #0047ab;
+  color: #018035;
 }
 
 #careers .content {
@@ -1022,7 +1027,106 @@ p {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Ensure popup is responsive */
+.job-container {
+  width: 100%;
+  height: 100%;
+  /* font-family: Arial, sans-serif; */
+  /* padding: 15% 0 15%; */
+  padding: 15vh 0 15vh;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* padding: 10vh 10px 0; */
+  transition: all 0.7s ease-in-out;
+  /* padding: 0 15%; */
+
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  /* background-color: #018035; */
+  border: 1px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.7s;
+  border: 2px solid #008035;
+
+}
+
+.tabs button.active {
+  background-color: #008035;
+  color: white;
+}
+
+.tabs button:hover {
+  background: #c9e165;
+  color: black;
+  border: 2px solid #008035;
+
+}
+
+.tab-content {
+  text-align: center;
+}
+
+.jobs-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  text-align: left;
+}
+
+.job-card h3 {
+  color: #233d4d;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  color: #233d4d;
+  margin: 5px 0;
+}
+
+.apply-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color:#008035;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.7s;
+}
+
+.apply-button:hover {
+  background: transparent;
+  color: black;
+  border: 2px solid #008035;
+}
+
+.how-to-apply {
+  padding: 20px;
+  color: #000;
+}
+
+
 @media (max-width: 768px) {
   .popup-content {
     width: 100%;
@@ -1503,6 +1607,10 @@ p {
     font-size: 1.6rem;
   }
 }
+.tab-content {
+  padding: 0 10vh;
+  
+}
 
 @media only screen and (max-width: 430px) {
   #header .content {
@@ -1582,6 +1690,9 @@ p {
   #contact .contact_container .form .container {
     width: 200px;
   }
+  #careers {
+    width: 100%;
+  }
   #careers .header h1 {
     font-size: 1.8rem;
   }
@@ -1592,5 +1703,15 @@ p {
 
   #careers .text-section p {
     font-size: 0.9rem;
+  }
+  #careers .home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .tab-content {
+    padding: 0 5vh;
   }
 }

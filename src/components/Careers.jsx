@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
+import JobAdvertisement from "./JobAdvertisement";
 
 export default function Careers() {
   return (
     <div id="careers">
       <div className="head_wrapper">
         <div className="home">
+          <p>
           <Link to="/">Go back to home</Link>
+
+          </p>
         </div>
         <div className="heading">
           <p>CAREERS</p>
@@ -41,6 +45,8 @@ export default function Careers() {
           </div>
         </div>
       </div>{" "}
+      <JobAdvertisement />
+
     </div>
   );
 }
