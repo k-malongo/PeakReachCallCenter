@@ -1,7 +1,13 @@
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
+import { Link } from "react-router-dom";
 
 export default function Header() {
+
+  function handleRequest(){
+    <>
+    </>
+  }
   return (
     <div id="header">
       <img
@@ -40,7 +46,10 @@ export default function Header() {
               </p>
             </div>
           </div>
-          <button className="action">Request A Quote</button>
+          <button className="action" onClick={handleRequest}>
+          <Link to="/#contact">Request A Quote</Link>
+
+          </button>
         </div>
       </div>
     </div>

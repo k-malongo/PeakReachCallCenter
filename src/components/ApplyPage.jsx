@@ -1,10 +1,9 @@
-import { useParams } from "react-router-dom";
-import emailjs from "emailjs-com";
+// import { useParams } from "react-router-dom";
+// import emailjs from "emailjs-com";
 
 import { useState } from "react";
 
 export default function ApplyPage() {
-  // const { jobId } = useParams();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -12,6 +11,9 @@ export default function ApplyPage() {
     message: "",
     cv: null,
   });
+
+  const [errorMessage, setErrorMessage] = useState(""); // For error messages
+  const [isSubmitting, setIsSubmitting] = useState(false); // For disabling the button during submission
 
   const handleChange = (e) => {
     const { name, value, files } = e.target;
@@ -24,7 +26,22 @@ export default function ApplyPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Use a service like EmailJS or Node.js backend to handle emails
+    // Reset error message
+    setErrorMessage("");
+
+    // Check if CV is uploaded
+    if (!formData.cv) {
+      setErrorMessage("Please upload your CV before submitting.");
+      return;
+    }
+
+    // Check file size (e.g., limit to 5MB)
+    if (formData.cv && formData.cv.size > 5 * 1024 * 1024) {
+      setErrorMessage("File size should not exceed 5MB.");
+      return;
+    }
+
+    setIsSubmitting(true); // Disable the button
     const emailData = new FormData();
     emailData.append("name", formData.name);
     emailData.append("email", formData.email);
@@ -32,23 +49,35 @@ export default function ApplyPage() {
     emailData.append("message", formData.message);
     emailData.append("cv", formData.cv);
 
-    // Send data to a server or use EmailJS
-    emailjs
-      .sendForm(
-        "service_ohjfqbs", // Your EmailJS Service ID
-        "template_sna51sr", // Your EmailJS Template ID
-        e.target, // Form element
-        "r4lEAHv3sN667NYGD" // Your EmailJS User ID
-      )
-      .then(
-        (result) => {
-          alert("Application submitted successfully!" + result);
-        },
-        (error) => {
-          alert("Error submitting the application.");
-          console.error(error.text);
+    fetch("http://localhost:5000/send-email", {
+      method: "POST",
+      body: emailData,
+    })
+      .then((response) => {
+        setIsSubmitting(false); // Re-enable the button
+
+        if (response.ok) {
+          console.log("Application submitted successfully!");
+          alert("Application submitted successfully!");
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            message: "",
+            cv: null,
+          }); // Reset form data
+        } else {
+          response.json().then((data) => {
+            const error = data.error || "An unknown error occurred.";
+            setErrorMessage(error);
+          });
         }
-      );
+      })
+      .catch((error) => {
+        setIsSubmitting(false); // Re-enable the button
+        setErrorMessage("Unable to submit the application. Please try again later.");
+        console.error("Error:", error);
+      });
   };
 
   return (
@@ -104,8 +133,12 @@ export default function ApplyPage() {
             required
           />
         </label>
-        <button type="submit">Submit Application</button>
+        {errorMessage && <p className="error-message">{errorMessage}</p>}
+        <button type="submit" disabled={isSubmitting}>
+          {isSubmitting ? "Submitting..." : "Submit Application"}
+        </button>
       </form>
     </div>
   );
 }
+

@@ -129,8 +129,7 @@ export default function Footer({ openPopup }) {
                   <PlaceIcon />
                 </div>
                 <p>
-                  <span hidden>address: </span>Nairobi City Hall, City Hall Way,
-                  Nairobi, Kenya
+                  <span hidden>address: </span>We are a global company
                 </p>
               </li>
             </ul>
