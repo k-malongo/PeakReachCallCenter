@@ -1,5 +1,6 @@
-// import { useParams } from "react-router-dom";
-// import emailjs from "emailjs-com";
+
+import { useNavigate } from "react-router-dom";
+
 
 import { useState } from "react";
 
@@ -14,6 +15,7 @@ export default function ApplyPage() {
 
   const [errorMessage, setErrorMessage] = useState(""); // For error messages
   const [isSubmitting, setIsSubmitting] = useState(false); // For disabling the button during submission
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value, files } = e.target;
@@ -66,6 +68,8 @@ export default function ApplyPage() {
             message: "",
             cv: null,
           }); // Reset form data
+          navigate("/careers"); // Redirect to the careers page
+
         } else {
           response.json().then((data) => {
             const error = data.error || "An unknown error occurred.";
