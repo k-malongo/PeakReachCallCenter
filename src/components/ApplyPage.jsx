@@ -51,7 +51,7 @@ export default function ApplyPage() {
     emailData.append("message", formData.message);
     emailData.append("cv", formData.cv);
 
-    fetch("http://localhost:5000/send-email", {
+    fetch("https://vercel.com/kmalongos-projects/email-backend/5MPQUJzAJBzzq3QUtkqUpFLwdn9C", {
       method: "POST",
       body: emailData,
     })

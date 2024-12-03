@@ -28,16 +28,16 @@ export default function Footer({ openPopup }) {
                 convenient time to visit our office.
               </p>
               <div className="socials">
-                <a href="https://www.facebook.com">
+                <a href="https://www.facebook.com/profile.php?id=61559812747773&mibextid=ZbWKwL">
                   <FacebookIcon />
                 </a>
                 <a href="https://www.twitter.com">
                   <XIcon />
                 </a>
-                <a href="https://www.instagram.com">
+                <a href="https://www.instagram.com/the_peak_reach_team?igsh=MWl3azNnYnAwYmp3dg==">
                   <InstagramIcon />
                 </a>
-                <a href="https://www.linkedin.com">
+                <a href="https://www.linkedin.com/in/peak-reach-call-center-ltd-9013892ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                   <LinkedInIcon />
                 </a>
               </div>

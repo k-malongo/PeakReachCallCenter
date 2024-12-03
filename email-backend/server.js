@@ -12,6 +12,9 @@ app.use(cors());
 // Middleware to handle file uploads
 app.use(fileUpload());
 
+app.get("/", (req, res) => res.send("Express on Vercel"));
+
+
 app.post("/send-email", async (req, res) => {
   try {
     const { name, email, phone, message } = req.body;
@@ -21,7 +24,7 @@ app.post("/send-email", async (req, res) => {
       return res.status(400).send("No file uploaded.");
     }
 
-    // // Validate file
+    // Validate file
     if (!cv.mimetype.startsWith("application/")) {
       return res.status(400).send("Invalid file type. Please upload a document.");
     }
@@ -63,7 +66,7 @@ app.post("/send-email", async (req, res) => {
 });
 
 // Start server
-const PORT = 5000;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
