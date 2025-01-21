@@ -33,6 +33,27 @@ export default function JobAdvertisement() {
       description:
         "Provide technical support for cloud infrastructure and ensure high availability.",
     },
+    {
+      id: 3,
+      title: "NOC Engineer",
+      location: "Nairobi, Kenya",
+      description:
+        "Provide technical support for network infrastructure to ensure high availability and reliability.",
+    },
+    {
+      id: 3,
+      title: "Call Center Agent",
+      location: "Nairobi, Kenya",
+      description:
+        "Provide customer support and answer any inquiries as requested.",
+    },
+    {
+      id: 3,
+      title: "Team Lead",
+      location: "Nairobi, Kenya",
+      description:
+        "Provide support to the junior staff including continuos training",
+    },
   ];
 
   return (

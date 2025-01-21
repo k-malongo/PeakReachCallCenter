@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 import { useLocation } from "react-router-dom";
 
 import Navbar from "./components/Navbar.jsx";
@@ -49,6 +50,8 @@ function App() {
   };
   return (
     <>
+      <Analytics />
+
       <Routes>
         <Route
           path="/"
@@ -73,6 +76,7 @@ function App() {
         <Route path="/careers" element={<Careers />} />
         <Route path="/careers/apply/:jobId" element={<ApplyPage />} />
       </Routes>
+
     </>
   );
 }
