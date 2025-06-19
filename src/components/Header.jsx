@@ -35,14 +35,14 @@ export default function Header() {
               <p>
                 <span hidden>email: </span>
                 <a href="mailto:info@peakreachcallcenterltd.com">
-                  info@peakreachcallcenterltd.com
+                  info@peakreach.co.ke
                 </a>
               </p>
             </div>
             <div className="icon">
               <PhoneIcon className="icon-color"/>
               <p>
-                <span hidden>phone: </span><a href="tel:+254797561335">254797561335/+254780520824</a>+
+                <span hidden>phone: </span><a href="tel:+254797561335">254723217873/+254780520824</a>+
               </p>
             </div>
           </div>
