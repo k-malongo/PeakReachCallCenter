@@ -34,7 +34,7 @@ export default function Header() {
               <MailIcon className="icon-color"/>
               <p>
                 <span hidden>email: </span>
-                <a href="mailto:info@peakreachcallcenterltd.com">
+                <a href="mailto:info@peakreach.co.ke">
                   info@peakreach.co.ke
                 </a>
               </p>
@@ -42,7 +42,7 @@ export default function Header() {
             <div className="icon">
               <PhoneIcon className="icon-color"/>
               <p>
-                <span hidden>phone: </span><a href="tel:+254797561335">254723217873/+254780520824</a>+
+                <span hidden>phone: </span><a href="tel:+254797561335">254797561335</a>+
               </p>
             </div>
           </div>

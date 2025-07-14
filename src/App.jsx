@@ -18,6 +18,9 @@ import Footer from "./components/Footer.jsx";
 import Popup from "./components/Popup.jsx";
 import Careers from "./components/Careers.jsx";
 import ApplyPage from "./components/ApplyPage.jsx";
+import Statistics from "./components/Statistics.jsx";
+import Partners from "./components/Patners.jsx";
+import Blog from "./components/Blog.jsx";
 
 function App() {
   const { pathname, hash, key } = useLocation();
@@ -67,6 +70,9 @@ function App() {
               <Testimonials />
               <FAQ />
               <Team />
+              <Statistics />
+              <Partners />
+              <Blog />
               <Contact />
               <Footer openPopup={openPopup} />
               {isPopupOpen && <Popup closePopup={closePopup} />}
