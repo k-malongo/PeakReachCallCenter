@@ -25,21 +25,21 @@ const testimonials = [
 		company: "CEO of a leading airline",
 		image: "boy1.jpg",
 		statement:
-			"PeakReach's customer service is top-notch. Their team is always professional and responsive, making our interactions smooth and efficient.",
+			"PeakReach's customer service is top-notch. Their team is always professional and responsive, making our interactions smooth and efficient. They go above and beyond to understand our needs and deliver tailored solutions quickly. Whether it's resolving an issue or answering our queries, they consistently demonstrate reliability, friendliness, and a genuine commitment to customer satisfaction.",
 	},
 	{
 		name: "Susan K.",
 		company: "Decision ",
 		image: "girl1.jpg",
 		statement:
-			"We've seen a significant improvement in our debt recovery rates since partnering with PeakReach. Their ethical approach and effectiveness are commendable.",
+			"We've seen a significant improvement in our debt recovery rates since partnering with PeakReach. Their ethical approach, professionalism, and consistent communication have made a real difference in how we manage collections. They handle every case with integrity and efficiency, ensuring both compliance and results.",
 	},
 	{
 		name: "Michael O.",
 		company: "Tech Innovators",
 		image: "boy2.jpg",
 		statement:
-			"The inbound and outbound call services provided by PeakReach have been a game changer for our business. Our customers are happier, and our operations are more streamlined.",
+			"The inbound and outbound call services provided by PeakReach have truly been a game changer for our business. Their team handles every interaction with professionalism and care, which has led to improved customer satisfaction. As a result, our internal processes are more streamlined, efficient, and aligned with our service goals.",
 	},
 	{
 		name: "Grace N.",
@@ -101,12 +101,12 @@ export default function Testimonials() {
 						<p className="quote_icon">&#10077;</p>
 						<p className="quote_text">{testimonial.statement}</p>
 						<div className="personal_info">
-							<div className="portrait">
+							{/* <div className="portrait">
 								<img
 									src={`/images/${testimonial.image}`}
 									alt={testimonial.name}
 								/>
-							</div>
+							</div> */}
 							<div>
 								<h4 className="name">{testimonial.name}</h4>
 								{/* <h4 className="company">{testimonial.company}</h4> */}
