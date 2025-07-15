@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 const StatisticCard = ({ end, suffix, separator, label }) => {
   const { ref, inView } = useInView({
-    // triggerOnce: true,   // only trigger once
+    triggerOnce: true,   // only trigger once
     threshold: 0.6,       // how much of the element must be visible
   });
 

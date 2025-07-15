@@ -112,7 +112,7 @@ export default function Footer({ openPopup }) {
                 </div>
                 <p>
                   <span hidden>email: </span>
-                  <a href="mailto:info@peakreachcallcenterltd.com">info@peakreachcallcenterltd.com
+                  <a href="mailto:info@peakreach.co.ke">info@peakreach.co.ke
                   </a>
                 </p>
               </li>
@@ -121,7 +121,7 @@ export default function Footer({ openPopup }) {
                   <PhoneIcon />
                 </div>
                 <p>
-                  <span hidden>phone: </span>+254797561335/+254780520824
+                  <span hidden>phone: </span>+254797561335
                 </p>
               </li>
               <li>

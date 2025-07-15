@@ -28,32 +28,60 @@ export default function JobAdvertisement() {
     },
     {
       id: 3,
-      title: "Cloud Support Engineer",
-      location: "Nairobi, Kenya",
-      description:
-        "Provide technical support for cloud infrastructure and ensure high availability.",
-    },
-    {
-      id: 3,
       title: "NOC Engineer",
       location: "Nairobi, Kenya",
       description:
         "Provide technical support for network infrastructure to ensure high availability and reliability.",
     },
     {
-      id: 3,
+      id: 4,
       title: "Call Center Agent",
       location: "Nairobi, Kenya",
       description:
         "Provide customer support and answer any inquiries as requested.",
     },
     {
-      id: 3,
-      title: "Team Lead",
-      location: "Nairobi, Kenya",
-      description:
-        "Provide support to the junior staff including continuos training",
-    },
+    id: 5,
+    title: "Team Lead",
+    location: "Nairobi, Kenya",
+    description: "Provide support to the junior staff including continuous training",
+  },
+  {
+    id: 6,
+    title: "Technical Support Specialist",
+    location: "Nairobi, Kenya",
+    description: "Offer technical assistance to customers and troubleshoot product issues.",
+  },
+  {
+    id: 7,
+    title: "Order Processing",
+    location: "Nairobi, Kenya",
+    description: "Manage incoming orders, update order statuses, and ensure timely delivery.",
+  },
+  {
+    id: 8,
+    title: "Help Desk Services",
+    location: "Nairobi, Kenya",
+    description: "Respond to client queries and provide first-level IT support.",
+  },
+  {
+    id: 9,
+    title: "Market Research",
+    location: "Nairobi, Kenya",
+    description: "Collect and analyze data to understand market trends and customer needs.",
+  },
+  {
+    id: 10,
+    title: "Sales Support",
+    location: "Nairobi, Kenya",
+    description: "Assist the sales team with lead generation, follow-ups, and documentation.",
+  },
+  {
+    id: 11,
+    title: "Telesales",
+    location: "Nairobi, Kenya",
+    description: "Reach out to potential clients via phone to promote and sell services.",
+  },
   ];
 
   return (

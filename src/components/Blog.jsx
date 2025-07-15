@@ -20,6 +20,33 @@ const Blog = () => {
       image: "https://images.unsplash.com/photo-1580894908361-967195033215?auto=format&fit=crop&w=800&q=80",
       link: "https://www.forbes.com/sites/forbeshumanresourcescouncil/2021/04/22/remote-work-in-call-centers-a-lasting-shift/",
     },
+  {
+    title: "How Palo Alto Is Shaping Cloud Security",
+    summary:
+      "A deep dive into Palo Alto’s latest innovations in securing the cloud.",
+    image:
+      "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=800&q=70",
+    link:
+      "https://www.paloaltonetworks.com/blog/2024/03/cloud-security-trends/",
+  },
+  {
+    title: "What’s New with Juniper in Edge Networking",
+    summary:
+      "Discover how Juniper Networks is improving edge and AI‑driven networking.",
+    image:
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=70",
+    link:
+      "https://blogs.juniper.net/en-us/ai-driven-enterprise/what-s-new-in-juniper-mist-edge-networking",
+  },
+  {
+    title: "The Role of AI in Telecom",
+    summary:
+      "AI is optimizing telecom networks and customer experience at scale.",
+    image:
+      "https://images.unsplash.com/photo-1542831371-d531d36971e6?auto=format&fit=crop&w=800&q=70",
+    link:
+      "https://www.ericsson.com/en/blog/2024/4/the-role-of-ai-in-telecom",
+  },
   ];
 
   return (

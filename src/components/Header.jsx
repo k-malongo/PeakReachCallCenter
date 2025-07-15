@@ -42,7 +42,7 @@ export default function Header() {
             <div className="icon">
               <PhoneIcon className="icon-color"/>
               <p>
-                <span hidden>phone: </span><a href="tel:+254797561335">254797561335</a>+
+                <span hidden>phone: </span><a href="tel:+254797561335">254797561335</a>
               </p>
             </div>
           </div>
