@@ -33,10 +33,11 @@ const Statistics = () => {
         <p>Key performance metrics showcasing our growth and success.</p>
       </div>
       <div className="stats-grid">
-        <StatisticCard end={500} suffix="+" label="Clients Served" />
+        <StatisticCard end={30} suffix="+" label="Clients Served" />
         <StatisticCard end={95} suffix="%" label="Satisfaction Rate" />
         <StatisticCard end={200000} separator="," label="Calls Handled" />
-        <StatisticCard end={25} label="Team Members" />
+        <StatisticCard end={25} label="Members per Team" />
+        <StatisticCard end={95} suffix="%" label="First contact resolution" />
       </div>
     </section>
   );
