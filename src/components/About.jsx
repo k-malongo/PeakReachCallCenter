@@ -1,3 +1,11 @@
+import { Helmet } from "react-helmet";
+
+<Helmet>
+  <title>Peak Reach | About</title>
+  <meta name="description" content="Explore Peak Reach - your premier partner in global customer contact solutions." />
+  <link rel="canonical" href="https://www.peakreach.co.ke/" />
+</Helmet>
+
 export default function About() {
   return (
     <div id="about">
@@ -8,9 +16,20 @@ export default function About() {
         </div>
 
         <p className="description">
-          Our agents are fully bilingual, bi-cultural, well educated and have
-          expertise in a wide array of business functions such as Debt
-          Collection and Customer Service.
+          At Peak Reach, we are a premier customer experience partner delivering world-class contact center solutions across voice, chat, email, and social media. Our mission is to help businesses increase customer satisfaction, streamline support, and grow their brand reputation through personalized, scalable, and cost-effective communication services.
+With a dedicated team of highly trained agents, advanced technology infrastructure, and a commitment to excellence, we serve clients across various industries including e-commerce, telecommunications, fintech, and healthcare. Whether you need 24/7 support, technical assistance, sales outreach, or back-office processing, we tailor our solutions to meet your exact needs.
+<br />Why choose us?
+<br />
+<br />✅99% Customer Satisfaction Rate 
+
+<br />✅ Multilingual Support & Global Coverage
+
+<br />✅ Fast Onboarding & Flexible Plans 
+
+<br />✅ PCI-DSS & GDPR Compliant
+
+
+ <br />Partner with us and turn every interaction into an opportunity to delight your customers.
         </p>
 
         <div className="stats_container">
@@ -35,7 +54,7 @@ export default function About() {
               <p>Sales/Lead Generation</p>
               <p>32%</p>
             </div>
-            <div className="statspercent">
+            <div className="statspercent" >
               <div className="stat_colored"></div>
               <div className="stat_colorless"></div>
             </div>

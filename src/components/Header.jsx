@@ -2,6 +2,15 @@ import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
 import { Link } from "react-router-dom";
 
+import { Helmet } from "react-helmet";
+
+<Helmet>
+  <title>Peak Reach | Home</title>
+  <meta name="description" content="Explore Peak Reach - your premier partner in global customer contact solutions." />
+  <link rel="canonical" href="https://www.peakreach.co.ke/" />
+</Helmet>
+
+
 export default function Header() {
 
   function handleRequest(){
@@ -12,6 +21,7 @@ export default function Header() {
     <div id="header">
       <img
         className="background"
+        loading="lazy"
         src="/images/header.jpg"
         alt="header background"
       />

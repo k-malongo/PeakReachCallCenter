@@ -1,6 +1,14 @@
 import React from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
+import { Helmet } from "react-helmet";
+
+<Helmet>
+  <title>Peak Reach | Statistics</title>
+  <meta name="description" content="Explore Peak Reach - your premier partner in global customer contact solutions." />
+  <link rel="canonical" href="https://www.peakreach.co.ke/" />
+</Helmet>
+
 
 const StatisticCard = ({ end, suffix, separator, label }) => {
   const { ref, inView } = useInView({

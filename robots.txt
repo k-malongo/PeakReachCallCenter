@@ -1,0 +1,3 @@
+Sitemap: https://www.peakreach.co.ke/sitemap.xml
+User-agent: *
+Allow: /

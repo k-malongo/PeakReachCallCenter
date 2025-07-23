@@ -4,7 +4,7 @@ const q_a1 = [
 	{
 		question: "How to contact us?",
 		answer:
-			"info@peakreachcallcenterltd.com | +254797561335/+254780520824",
+			"info@peakreachco.ke | +254797561335",
 
 	},
 	{
@@ -15,12 +15,12 @@ const q_a1 = [
 	{
 		question: "What products/services do we offer?",
 		answer:
-			"Assisting customers with inquiries, troubleshooting issues, and providing information about products and services.",
+			" We offer a wide range of customer interaction and business support services across multiple channels (voice, email, chat, social media)",
 	},
 	{
 		question: "what is our location?",
 		answer:
-			"Our headquaters are located in Nairobi Kenya but we operate globally ",
+			"Our headquaters are located in Nairobi Kenya but we operate globally . Our services are not limited by geography, allowing us to support clients worldwide. ",
 	},
 ];
 
@@ -28,7 +28,7 @@ const q_a2 = [
 	{
 		question: "How to request for a demo",
 		answer:
-			"Prepare Your Information: Before reaching out, have your contact details ready, including your name, email, and phone number. Identify the specific product or service you’re interested in.",
+			"We’d be delighted to walk you through a demo and show you how our solutions can support your business needs. You can request a demo by contacting us via email at info@peakreach.co.ke",
 	},
 	{
 		question: "How long is the demo?",
@@ -38,7 +38,20 @@ const q_a2 = [
 	{
 		question: "why Peak Reach?",
 		answer:
-		"Exceptional Customer Service: Our trained agents prioritize customer satisfaction, ensuring a friendly and professional experience for every caller.",
+		"At Peak Reach, we’re not just a contact center — we’re your strategic partner in delivering outstanding customer experiences and driving business growth. Here’s why clients choose us. We put your customers first. Our agents are trained to handle every interaction with professionalism, empathy, and speed — ensuring your brand is represented with excellence. We leverage the latest technology to provide seamless omnichannel support, from voice and email to chat and social media. Our advanced analytics help you gain insights into customer behavior and preferences." 
+		
+// 		Omnichannel support:We offer seamless support across voice, email, live chat, SMS, WhatsApp, and social media — allowing your customers to connect on their preferred channel.
+// 		We help businesses improve:
+
+// Customer satisfaction (CSAT)
+
+// First-call resolution
+
+// Sales conversions
+
+// Customer retention", 
+
+
 		
 	},
 	{

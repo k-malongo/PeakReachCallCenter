@@ -21,6 +21,7 @@ import ApplyPage from "./components/ApplyPage.jsx";
 import Statistics from "./components/Statistics.jsx";
 import Partners from "./components/Patners.jsx";
 import Blog from "./components/Blog.jsx";
+import CoreValues from "./components/Corevalues.jsx";
 
 function App() {
   const { pathname, hash, key } = useLocation();
@@ -66,6 +67,7 @@ function App() {
               <Header />
               <Services />
               <About />
+              <CoreValues />
               <Start />
               <Testimonials />
               <FAQ />

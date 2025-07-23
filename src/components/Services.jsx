@@ -1,3 +1,12 @@
+import { Helmet } from "react-helmet";
+
+<Helmet>
+  <title>Peak Reach | Services</title>
+  <meta name="description" content="Explore Peak Reach - your premier partner in global customer contact solutions." />
+  <link rel="canonical" href="https://www.peakreach.co.ke/" />
+</Helmet>
+
+
 export default function Services() {
 	return (
 		<div id="services">
