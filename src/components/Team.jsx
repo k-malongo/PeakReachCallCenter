@@ -13,28 +13,34 @@ import { Helmet } from "react-helmet";
 
 const teamDetails = [
   {
-    image: "/images/4.png",
+    image: "/images/image.png",
     alt: "boy1",
-    name: "Juliet W",
+    name: "Trevor Kibuba",
     position: "C.E.O",
   },
   {
-    image: "/images/3.png",
-    alt: "Kelvin",
-    name: "Kelvin M",
-    position: "IT specialist",
+    image: "/images/4.png", 
+    alt: "Emma Wambui",
+    name: "Emma Wambui",
+    position: "Head of peoples department",
   },
   {
-    image: "/images/image.png",
+    image: "/images/1.png",
     alt: "boy4",
-    name: "Trevor K",
-    position: "Projects Manager",
+    name: "Felisters Gathoni",
+    position: "Director bids and Contracts",
   },
   {
     image: "/images/1.png",
     alt: "girl2",
-    name: "Emma W",
-    position: "HR Manager",
+    name: "Juliet W",
+    position: "Head of Business Development",
+  },
+  {
+    image: "/images/3.png",
+    alt: "girl2",
+    name: "Kelvin M",
+    position: "Systems Specialist",
   },
 ];
 
