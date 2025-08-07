@@ -250,10 +250,15 @@ p {
 #about {
   padding: 10vh 10%;
   background-color: #f9f9f9;
+  
+}
+.about-content {
   display: flex;
   gap: 40px;
   justify-content: space-between;
+  flex-wrap: wrap; /* Makes it responsive */
 }
+
 
 #about .main {
   max-width: 600px;
@@ -369,6 +374,81 @@ p {
   left: 5%;
   z-index: 1;
 }
+
+/* Full width section after image */
+.why-choose-us {
+  /* background-color: #fff; */
+  padding: 4rem 10%;
+  /* margin-top: 4rem; */
+  text-align: center;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #008035;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.benefit-card {
+  background-color: #f3fdf6;
+  border: 1px solid #d2efe0;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.check-icon {
+  font-size: 1.5rem;
+  color: #008035;
+}
+
+.partner-note {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.tech-empower {
+  margin-top: 3rem;
+  background: #e6f4f1;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tech-empower h4 {
+  font-size: 1.5rem;
+  color: #0b7a75;
+  margin-bottom: 1rem;
+}
+
+.tech-empower p {
+  color: #444;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
 
 /* START */
 
@@ -675,7 +755,7 @@ p {
 }
 
 #team .card {
-  height: 370px;
+  height: 400px;
   width: 200px;
 }
 
@@ -1255,7 +1335,7 @@ p {
     font-size: 0.9rem;
   }
 
-  #about {
+  #about-content {
     padding: 10vh 5%;
   }
 
@@ -1385,7 +1465,7 @@ p {
     max-width: 600px;
   }
 
-  #about {
+  #about-content {
     align-items: center;
   }
 
@@ -1637,7 +1717,7 @@ p {
     max-width: 450px;
   }
 
-  #about {
+  #about-content {
     justify-content: center;
   }
 

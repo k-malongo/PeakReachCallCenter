@@ -59,12 +59,12 @@ export default function Team() {
             <div className="info">
               <h4 className="name">{person.name}</h4>
               <h5 className="position">{person.position}</h5>
-              <div className="socials">
+              {/* <div className="socials">
                 <FacebookIcon className="icon" />
                 <XIcon className="icon" />
                 <InstagramIcon className="icon" />
                 <LinkedInIcon className="icon" />
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
